@@ -12,12 +12,6 @@ It features Google Maps zone selection, fare estimation (distance + demand + tra
     - Open the project directory.
     - Ensure `minSdkVersion ≥ 26`, `compileSdkVersion = 35`.
 3. Add your Google Maps API Key:
-    - In `AndroidManifest.xml`, add:
-      ```xml
-      <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="YOUR_GOOGLE_MAPS_API_KEY"/>
-      ```
     - In `local.properties`, add:
       ```MAPS_API_KEY={Your key}```
 4. Sync Gradle to download dependencies.
