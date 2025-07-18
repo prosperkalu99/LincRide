@@ -19,7 +19,7 @@ It features Google Maps zone selection, fare estimation (distance + demand + tra
         android:value="YOUR_GOOGLE_MAPS_API_KEY"/>
       ```
     - In `local.properties`, add:
-      `MAPS_API_KEY={Your key}`
+      ```MAPS_API_KEY={Your key}```
 4. Sync Gradle to download dependencies.
 
 ---
