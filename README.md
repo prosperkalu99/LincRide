@@ -18,6 +18,8 @@ It features Google Maps zone selection, fare estimation (distance + demand + tra
         android:name="com.google.android.geo.API_KEY"
         android:value="YOUR_GOOGLE_MAPS_API_KEY"/>
       ```
+    - In `local.properties`, add:
+      `MAPS_API_KEY={Your key}`
 4. Sync Gradle to download dependencies.
 
 ---
@@ -28,7 +30,7 @@ It features Google Maps zone selection, fare estimation (distance + demand + tra
 2. In Android Studio:
     - Select the `app` module.
     - Click **Run** (▶️) or use **Shift + F10**.
-3. The app launches directly on the ride request screen with map and traffic.
+3. The app launches directly on the dashboard.
 
 ---
 
